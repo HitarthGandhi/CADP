@@ -1,1 +1,1 @@
-Results are CSV files.
+Results are saved as CSV files.
