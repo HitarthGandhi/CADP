@@ -310,7 +310,7 @@ function calculate_total_reward(values_of_states,ini_states,model_space,state_sp
     for m in 1:len_model
         push!(model_num,m)
         for s in 1:len_state
-            return_models[m] += values_of_states[m,s] * ini_states[i]
+            return_models[m] += values_of_states[m,s] * ini_states[s]
         end
     end
     # write results to file
